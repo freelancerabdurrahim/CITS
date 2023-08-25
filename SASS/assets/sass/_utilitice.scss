@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$fontFamilyPrimary :'Open Sans', sans-serif;
+$fontFamilySecandary:'Roboto Condensed', sans-serif;
+
+$primaryColor :#273c75;
+$secoundaryColor:#353b48;
+
+$textColor:#353b48;
+$textwhite:#ffffff;
+
+body{
+    font-family: $fontFamilyPrimary;
+    color: #262626;
+    font-size: 16px;
+    font-family: 400;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+    font-family: $fontFamilySecandary;
+    margin: 0 0 15px;
+}
+
+p{
+    font-family: $fontFamilyPrimary;
+    margin: 0 0 15px;
+}

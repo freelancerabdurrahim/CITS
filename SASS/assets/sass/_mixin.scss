@@ -1,0 +1,16 @@
+@mixin flexCenter(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    color: $textwhite;
+}
+
+.div_mix1{
+    @include flexCenter;
+    background: $primaryColor;
+}
+.div_mix2 {
+    @include flexCenter;
+    background: $secoundaryColor;
+}

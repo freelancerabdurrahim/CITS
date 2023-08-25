@@ -1,0 +1,82 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #262626;
+  font-size: 16px;
+  font-family: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 0 15px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 15px;
+}
+
+#service_area {
+  width: 100%;
+  padding: 10px 20px;
+}
+#service_area h1 {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px;
+}
+#service_area .container {
+  width: 1140px;
+  max-width: 95%;
+  margin: auto;
+  display: flex;
+}
+#service_area .child_container {
+  background-color: #273c75;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 10px;
+  flex: 1;
+}
+#service_area .child_container:nth-child(odd) {
+  background-color: #353b48;
+}
+#service_area .child_container i {
+  font-size: 24px;
+  margin: 15px 0px;
+}
+#service_area .child_container h2 {
+  font-size: 26px;
+  letter-spacing: 3px;
+}
+
+.div_mix1, .div_extend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  color: #ffffff;
+  background: #273c75;
+}
+
+.div_mix2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  color: #ffffff;
+  background: #353b48;
+}
